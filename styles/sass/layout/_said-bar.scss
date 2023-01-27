@@ -203,9 +203,6 @@
   display: flex;
   margin-top: 64px;
 
-  .img__child {
-  }
-
   .img__text {
     width: 552px;
     margin-top: 64px;
@@ -221,10 +218,10 @@
     h3 {
       margin-top: 14px;
       font-weight: 400;
-font-size: 36px;
-line-height: 36px;
-letter-spacing: 0.48px;
-color: #2F2F2F;
+      font-size: 36px;
+      line-height: 36px;
+      letter-spacing: 0.48px;
+      color: #2f2f2f;
     }
 
     p {
@@ -233,6 +230,50 @@ color: #2F2F2F;
       margin-top: 21px;
       font-weight: 400;
       font-size: 20px;
+      line-height: 26px;
+      letter-spacing: 0.48px;
+      color: #2f2f2f;
+    }
+  }
+}
+
+.section__page {
+  display: flex;
+  margin-top: 6rem;
+  margin-left: 120px;
+  margin-right: 120px;
+
+  .page__img {
+    border-radius: 30px;
+    height: 450px;
+  }
+
+  .page__item {
+    margin-top: 50px;
+    margin-left: 63px;
+    width: 600px;
+
+
+    span {
+      font-size: 35px;
+      line-height: 36px;
+      letter-spacing: 0.48px;
+      text-transform: uppercase;
+      color: #2f2f2f;
+    }
+
+    h3 {
+      margin-top: 7px;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: 0.48px;
+      color: #2f2f2f;
+    }
+
+    p {
+      width: 545px;
+      margin-top: 38px;
+      font-size: 18px;
       line-height: 26px;
       letter-spacing: 0.48px;
       color: #2f2f2f;
