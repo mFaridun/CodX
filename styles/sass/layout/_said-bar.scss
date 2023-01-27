@@ -253,7 +253,6 @@
     margin-left: 63px;
     width: 600px;
 
-
     span {
       font-size: 35px;
       line-height: 36px;
@@ -278,5 +277,17 @@
       letter-spacing: 0.48px;
       color: #2f2f2f;
     }
+
+    .btn {
+      margin-top: 32px;
+      margin-left: 400px;
+      display: inline-block;
+      border: none;
+      color: #FFFFFF;
+      cursor: pointer;
+      background: #2F2F2F;
+      font-size: 15px;
+      padding: 12px 30px;
+  }
   }
 }
