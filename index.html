@@ -15,33 +15,40 @@
     />
   </head>
   <body>
-    <!-- header section -->
+    <!-- header section starts -->
 
     <header id="header">
       <div class="container">
         <div class="header">
-          <div class="header__logo">
-            <a href="#"><img src="./images/header-logo.png" alt="header-logo" /></a>
-          </div>
-          <div class="header__navbar">
-            <ul class="navbar__list">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">NFTs</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-              <div class="navbar__img">
+
+          <a class="header__logo" href="#"><img src="./images/header-logo.png" alt="header-logo" /></a>
+
+          <nav class="nav">
+              <ul class="navbar__list">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">NFTs</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+          </nav>
+
+          <div class="nav__icon">
+            <div class="navbar__img">
               <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
               <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
               <a href="#"><img src="./images/fakebook.png" alt="fakebook"></a>
-              </div>
             </div>
-            <div class="navbar__btn"><a href="#">View on OpenSea</a></div>
+          <div class="navbar__btn"><a href="#">View on OpenSea</a></div>
+          </div>
+
           </div>
         </div>
       </div>
     </header>
 
-    <!-- main section -->
+        <!-- header section end -->
+
+    <!-- main section starts -->
+
     <main class="main">
       <div class="container">
       <div class="main__box">
@@ -69,52 +76,85 @@
           <img class="img__bottom" src="./images/img-main1.jpg" alt="img">
         </div>
         </div>
-        <div class="main__gallery">
-          <img src="./images/gallery1.jpg" alt="gallery">
-          <img src="./images/gallery2.jpg" alt="gallery">
-          <img src="./images/gallery3.jpg" alt="gallery">
-          <img src="./images/gallery4.jpg" alt="gallery">
-          <img src="./images/gallery5.jpg" alt="gallery">
-          <img src="./images/gallery6.jpg" alt="gallery">
-          <img src="./images/gallery7.jpg" alt="gallery">
-          <img src="./images/gallery8.jpg" alt="gallery">
-          <img src="./images/gallery9.jpg" alt="gallery">
-        </div>
+      </main>
 
-        <div class="article">
-          <div class="article__top">
-            <h2>Hey there, we are</h2>
-            <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam <br> arcu, porta et magna at</p>
-            <div class="article__text">
-              <div class="article__link">
-                <a class="link-one" href="#">Jack</a>
-                <a href="#">Suni</a>
-                <a href="#">Colin</a>
-              </div>
-              <div class="img__info">
-                <div class="img__child">
-                  <img src="./images/child.png" alt="child">
+      <div class="container">
+        <div class="wrapper">
+
+          <div class="main__gallery">
+            <img src="./images/gallery1.jpg" alt="gallery">
+            <img src="./images/gallery2.jpg" alt="gallery">
+            <img src="./images/gallery3.jpg" alt="gallery">
+            <img src="./images/gallery4.jpg" alt="gallery">
+            <img src="./images/gallery5.jpg" alt="gallery">
+            <img src="./images/gallery6.jpg" alt="gallery">
+            <img src="./images/gallery7.jpg" alt="gallery">
+            <img src="./images/gallery8.jpg" alt="gallery">
+            <img src="./images/gallery9.jpg" alt="gallery">
+            <img src="./images/gallery6.jpg" alt="gallery">
+            <img src="./images/gallery7.jpg" alt="gallery">
+            <img src="./images/gallery8.jpg" alt="gallery">
+            <img src="./images/gallery9.jpg" alt="gallery">
+          </div>
+
+          <div class="article">
+            <div class="article__top">
+              <h2>Hey there, we are</h2>
+              <p>Suspendisse sem neque, auctor a elementum ut, varius vel leo. Donec diam <br> arcu, porta et magna at</p>
+              <div class="article__text">
+                <div class="article__link">
+                  <a class="link-one" href="#">Jack</a>
+                  <a href="#">Suni</a>
+                  <a href="#">Colin</a>
                 </div>
-                <div class="img__text">
-                  <h5>Digital Artist</h5>
-                  <h3>Pellentesque blandit <br> in quam rhoncus</h3>
-                  <p>Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+                <div class="img__info">
+                  <div class="img__child">
+                    <img src="./images/child.png" alt="child">
+                  </div>
+                  <div class="img__text">
+                    <h5>Digital Artist</h5>
+                    <h3>Pellentesque blandit <br> in quam rhoncus</h3>
+                    <p>Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="section__page">
-          <div class="page__img"><img src="./images/pictures1.jpg" alt=""></div>
-          <div class="page__item">
-            <span>our work</span>
-            <h3>“Um… what’s going on here?”</h3>
-            <p>Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et, porta in sapien.</p>
-            <a class="btn" href="#">About Codx</a>
+          <div class="section__page">
+            <div class="page__img"><img src="./images/pictures1.jpg" alt="pictures"></div>
+            <div class="page__item">
+              <span>our work</span>
+              <h3>“Um… what’s going on here?”</h3>
+              <p>Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et, porta in sapien.</p>
+              <a class="btn" href="#">About Codx</a>
+            </div>
           </div>
+
+          <div class="info">
+            <div class="info__left">
+              <div class="info__box">
+                <span>01</span>
+                <h2>Motion Graphic</h2>
+                <p>Suspendisse sem neque, auctor a elementum ut, <br> varius vel leo. Donec diam arcu, porta et magna at</p>
+              </div>
+              <div class="info__box">
+                <span style="background: #EAD71B;">02</span>
+                <h2>Digital Illustration</h2>
+                <p>Suspendisse sem neque, auctor a elementum ut, <br> varius vel leo. Donec diam arcu, porta et magna at</p>
+              </div>
+              <div class="info__box">
+                <span style="background: #FF7F96;">03</span>
+                <h2>Photography</h2>
+                <p>Suspendisse sem neque, auctor a elementum ut, <br> varius vel leo. Donec diam arcu, porta et magna at</p>
+              </div>
+            </div>
+            <div class="info__img"><img src="./images/info-img.jpg" alt="bro"></div>
+          </div>
+
         </div>
       </div>
-    </main>
+        <!-- main section starts -->
+
   </body>
 </html>
