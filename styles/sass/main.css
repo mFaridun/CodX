@@ -391,4 +391,129 @@ li {
 
 .info__img img {
   height: 596px;
+}
+
+.users {
+  position: relative;
+}
+.users .users__box {
+  margin-top: 140px;
+  height: 456px;
+  background-color: #82cbac;
+}
+.users .users__box h3 {
+  display: inline-block;
+  margin-top: 75px;
+  margin-left: 120px;
+  font-size: 64px;
+  line-height: 64px;
+  color: #2f2f2f;
+}
+.users .users__box p {
+  margin-top: 30px;
+  margin-left: 120px;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2f2f2f;
+}
+.users .users__box .user__btn {
+  margin-left: 120px;
+  margin-top: 40px;
+  width: 205px;
+  text-align: center;
+  display: block;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  background: #2f2f2f;
+  font-size: 15px;
+  padding: 12px 30px;
+}
+.users img {
+  position: absolute;
+  top: -64px;
+}
+
+.collections {
+  margin-top: 100px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+}
+.collections h2 {
+  font-size: 63px;
+  line-height: 64px;
+  color: #2f2f2f;
+}
+.collections a {
+  display: inline-block;
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  background: #2f2f2f;
+  padding: 13px 40px;
+  color: #ffffff;
+}
+.collections .collections__page {
+  margin-top: 73px;
+  display: flex;
+  justify-content: space-between;
+}
+.collections .collections__page .collections__box {
+  text-align: center;
+}
+.collections .collections__page .collections__box img {
+  width: 358px;
+  height: 221px;
+}
+.collections .collections__page .collections__box span {
+  display: block;
+  text-align: start;
+  margin-top: 29px;
+  margin-left: 50px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 26px;
+  color: #2f2f2f;
+}
+
+.gallery__bottom {
+  margin-top: 95px;
+  margin-left: 184px;
+  margin-right: 184px;
+  text-align: center;
+}
+.gallery__bottom h2 {
+  font-size: 63px;
+  line-height: 64px;
+  color: #2f2f2f;
+}
+.gallery__bottom a {
+  display: inline-block;
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  background: #2f2f2f;
+  padding: 13px 40px;
+  color: #ffffff;
+}
+
+.gallery__bottom__page {
+  display: flex;
+  margin-top: 25px;
+  gap: 38px;
+}
+.gallery__bottom__page .gallery__page {
+  text-align: start;
+}
+.gallery__bottom__page .gallery__page span {
+  display: block;
+  margin-top: 27px;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #2f2f2f;
 }/*# sourceMappingURL=main.css.map */
