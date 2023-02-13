@@ -516,4 +516,32 @@ li {
   font-size: 16px;
   line-height: 18px;
   color: #2f2f2f;
+}
+
+.faq {
+  margin-left: 184px;
+}
+.faq h2 {
+  margin-top: 55px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  color: #2f2f2f;
+}
+.faq .faq__box {
+  position: relative;
+  margin-left: 26px;
+  margin-top: 74px;
+}
+.faq .faq__box span {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  color: #2f2f2f;
+}
+.faq .faq__box::after {
+  content: url(/images/icon-dovn.png);
+  position: absolute;
+  left: 80%;
+  top: 6px;
 }/*# sourceMappingURL=main.css.map */
